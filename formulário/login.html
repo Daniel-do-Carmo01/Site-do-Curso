@@ -1,19 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../CSS/stillog.css">
+    <script src="../JavaScript/javascripty.js"></script>
     <title>Login</title>
 </head>
+
 <body>
-    <h1>Login</h1><br>
-    <label for="OSU">Seu Usuário:</label>
-    <input type="text" name="OSU"><br>
-    <label for="OSU">Senha:</label>
-    <input type="password" name="OSU"><br>
-    <label for = "OSURETUR">Lembreme:</label>
-    <input type="radio" name="OSURETUR">
+    <header>
+        <h1>Login</h1><br>
+        <div class="boto">
+            <button class="Buton" onclick="inicial()">Pagina Inicial</button>
+            <button class="Buton" onclick="login()">Login</button>
+            <button class="Buton" onclick="cadastra()">Cadastre-se</button>
+        </div>
+    </header>
+
+    <section>
+        <form>
+            <fieldset>
+                <label class="labels"   for="OSU">Seu Usuário:</label><br><br>
+                <input class="put" type="text" name="OSU" placeholder="Digite seu Usuário"><br><br>
+                <label class="labels"   for="OSU">Senha:</label><br><br>
+                <input class="put" type="password" name="OSU" placeholder="Digite sua senha"><br><br>
+                <label class="labels"    for="OSURETUR">Lembre--me</label>
+                <input class="lembreme"   type="radio" name="OSURETUR"><br><br>
+                <input type="submit" class="enviar" value="Entrar">
+            </fieldset>
+        </form>
+    </section>
 
 </body>
+
 </html>

@@ -4,19 +4,43 @@ header{
     background-color: #efefef;
     padding: 20px;   
 }
-img{
-    position: absolute;
+.lgsect{
+    position: fixed;
+    top:40%;
+    left: 10%;
+    width: 350px;
+}
+#lgsao{
+    position:absolute;
     top: 45%;
     left: 72%;
     width: 350px;
 }
+.boto{
+    position: fixed;
+    top: 5%;
+    left: 70%;
+    font-size: 25px;
+    padding: 20px;
+
+}
+.Buton{
+    border-radius: 10px;
+    border-color: #63be6a;
+    padding: 20px;
+    background-color: #1b1b24;
+    font-size: 25px;
+    color: #63be6a;
+    pointer-events: visiblePainted;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color:#1b1b24;
     margin: 0;
 }
 .box{
-    position: absolute;
+    position: fixed;
     top: 55%;
     left:50%;
     transform:translate(-50%,-50%) ;
@@ -29,7 +53,7 @@ body{
 fieldset{
     border: 5px solid;
     color: #63be6a;
-    height: 520px;
+    height: 495px;
 }
 .Inputbox{
         position: relative;
@@ -48,7 +72,7 @@ fieldset{
     position: absolute;
     top: 90%;
     background-color: aliceblue;
-    padding: 50px 1860px 50px 50px ;
+    padding: 50px 100% 50px 50px ;
 }
 .Submit{
     color:rgb(0, 255, 0) ;

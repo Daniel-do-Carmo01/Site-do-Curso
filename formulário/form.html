@@ -1,67 +1,84 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de Registro</title>
     <link rel="stylesheet" type="text/css" href="../CSS/stilo.css"/>
+    <script src="../JavaScript/javascripty.js"></script>
 </head>
+
 <body>
     <header>
-    <h1>Cadastre-se</h1>
-    <p>Para relizar seu cadadastro preencha as informações abaixo:</p>
-    <img src="../logo-header.png">
+        <h1>Cadastre-se</h1>
+        <p>Para relizar seu cadadastro preencha as informações abaixo:</p>
+        <img src="../CSS/img/logo-header.png" id="lgsao">
+                               <!--Painel de interação -->
+        <div class="boto">
+            <button class="Buton" onclick="inicial()">Pagina Inicial</button>
+            <button class="Buton" onclick="login()">Login</button>
+            <button class="Buton" onclick="cadastra()">Cadastre-se</button>
+        </div>
     </header>
+
     <section class="box">
-    <form action="">
-                
-        <fieldset>
-            <legend><b>Formulário de cadadastro</b></legend><br>
-                            <!--CAMPO NOME DO USUARIO-->
-         <div class="InputBox">                   
-        <label for="nome">Nome:</label><br>
-        <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required="Digite seu nome" class="Input" ><br><br>
-        </div>
-                            <!--CAMPO SOBRENOME-->
-        <div class="Inputbox">                    
-        <label for="sobrenome">Sobrenome:</label><br>
-        <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome" class="Input" required ><br><br>
-        </div>
-                            <!--CAMPO TELEFONE-->
-        <div class="Inputbox">                    
-            <label for="sobrenome">Telefone:</label><br>
-            <input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone" class="Input" required ><br><br>
-        </div>
-                            <!--CAMPO EMAIL DO USUARIO-->
-        <div class="Inputbox">                    
-            <label for="email">Email:</label><br>
-            <input type="email" name="email" id="email"placeholder="Digite seu Email" class="Input" required ><br><br>
-        </div>
-                            <!--CAMPO CPF-->
-        <div class="Inputbox">
-        <label for="CPF">CPF:</label><br>
-        <input type="number" name="CPF" id="CPF" placeholder="Digite seu CPF"  class="Input" required ><br><br>
-       </div>
-                            <!--CAMPO DATA DE NASCIMENTO-->
-        <div class="Inputbox">
-        <label for="DATANAC"><b>Data de Nascimento:</b></label><br>
-        <input type="date" name="DATANAC"  class="Input" required ><br>
-        </div>
-                            <!--CAMPO GENERO-->
-        <div class="Inputbox">
-        <h5>GÊNERO</h5>
-        <input type="radio" name="Sexo" id="Masculino" value="Masculinno"> 
-        <label for="Masculino">Masculino</label><br>
-        <input type="radio" name="Sexo" id="Feminino" value="Feminino"> 
-        <label for="Feminino">Feminino</label>
-         </div>
-         <br>
-         <input type="submit" value="Enviar Formulário" class="Submit">
-        </fieldset>
-       </form>
-     </section> 
-     <footer class="rodape"></footer>
-    
+        <form action="">
+
+            <fieldset>
+                <legend><b>Formulário de cadadastro</b></legend><br>
+                                            <!--CAMPO NOME DO USUARIO-->
+                <div class="InputBox">
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required="Digite seu nome"
+                        class="Input"><br><br>
+                </div>
+                                              <!--CAMPO SOBRENOME-->
+                <div class="Inputbox">
+                    <label for="sobrenome">Sobrenome:</label><br>
+                    <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome" class="Input"
+                        required><br><br>
+                </div>
+                                             <!--CAMPO TELEFONE-->
+                <div class="Inputbox">
+                    <label for="sobrenome">Telefone:</label><br>
+                    <input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone" class="Input"
+                        required><br><br>
+                </div>
+                                          <!--CAMPO EMAIL DO USUARIO-->
+                <div class="Inputbox">
+                    <label for="email">Email:</label><br>
+                    <input type="email" name="email" id="email" placeholder="Digite seu Email" class="Input"
+                        required><br><br>
+                </div>
+                                                <!--CAMPO CPF-->
+                <div class="Inputbox">
+                    <label for="CPF">CPF:</label><br>
+                    <input type="number" name="CPF" id="CPF" placeholder="Digite seu CPF" class="Input"
+                        required><br><br>
+                </div>
+                                      <!--CAMPO DATA DE NASCIMENTO-->
+                <div class="Inputbox">
+                    <label for="DATANAC"><b>Data de Nascimento:</b></label><br>
+                    <input type="date" name="DATANAC" class="Input" required><br>
+                </div>
+                                               <!--CAMPO GENERO-->
+                <div class="Inputbox">
+                    <h5>GÊNERO</h5>
+                    <input type="radio" name="Sexo" id="Masculino" value="Masculinno" required>
+                    <label for="Masculino">Masculino</label><br>
+                    <input type="radio" name="Sexo" id="Feminino" value="Feminino" required>
+                    <label for="Feminino">Feminino</label>
+                </div>
+                <br>
+                <input type="submit" value="Enviar Formulário" class="Submit">
+            </fieldset>
+        </form>
+    </section>
+    <img src="../CSS/img/LogoDect.png" class="lgsect">
+    <footer class="rodape"></footer>
+
 </body>
+
 </html>

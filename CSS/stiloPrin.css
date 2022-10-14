@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1b1b24;
+    margin: 0;
+}
+header {
+    color: #63be6a;
+    font-size: 20px;
+    background-color: #efefef;
+    padding: 20px;
+}
+.boto{
+    position: absolute;
+    top: 4%;
+    left: 70%;
+}
+.Buton{
+    position:relative;
+    border-radius: 10px;
+    border-color: #63be6a;
+    padding: 20px;
+    background-color: #1b1b24;
+    font-size: 25px;
+    color: #63be6a;
+    pointer-events: visiblePainted;
+}
+.feeed{
+    display: inline-block;
+    max-width: 100%;
+    margin-top: 50px;
+    padding-left: 200px;
+    
+}
+#consult{
+    
+    width: 550px;
+    height:400px;
+    background-color: #efefef;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+#ofi{
+    height: 400px;
+    background-color: #efefef;
+    padding: 10px;
+    border-radius: 10px;
+}
+#EV{
+    padding:10px;
+    width: 500px;
+    height: 700px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #efefef;
+}
+
+p{
+   color: #63be6a;
+   font-size: 15px;
+}
+#family{
+    height: 600px; ;
+    width: 800px; ;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #efefef;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #63be6a;
+}
+.fixed{
+width: 75px;
+height: 75px;
+position: fixed;
+bottom: 0;
+right: 0;
+border-radius: 90px;
+}
+.fixed1{
+width: 75px;
+height: 75px;
+position: fixed;
+bottom: 75px;
+right:0;
+border-radius:  90px;
+}
+
